@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#navegacion{
+  height: 100vh;
+  width:25%;
+  background-color: #e0e0e0;
+}
+
+#vista{
+  height: 100vh;
+  background-image:'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi_lO_rn8zbAhVHmbQKHWgGA7wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.algoestudio.net%2F&psig=AOvVaw0L_jb4EvcCEZM3LLNXEFrr&ust=1528828426041886';
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navtittle{
+  list-style: none;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.navtittle:hover{
+  text-decoration: underline;
+}
+
+.navmain{
+  list-style: none;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.navmain:hover{
+  text-decoration: underline;
+}
+
+.navsub{
+  list-style: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.navsub:hover{
+  text-decoration: underline;
+}
+
+/*Home Page*/
+.hometittle{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: italiana;
+  color: black;
+}
+.portada{
+  display: block;
+  margin:auto;
+  width: 60%
+}
+#boxhome{
+  background-color: #cdced0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*Genres Page*/
+#rowstyle{
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  height: 25px;
+}
+.titulo{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: italiana;
+}
+#formulario{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
